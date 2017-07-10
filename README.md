@@ -57,7 +57,7 @@ gulp pdf
 
 ## Screenshot
 
-![biutiful-journals-screen](https://user-images.githubusercontent.com/10194510/28043249-4c882248-65d1-11e7-8c57-47e322b0e474.png)
+![biutiful-screen](https://user-images.githubusercontent.com/10194510/28043373-e6b95328-65d1-11e7-9c88-9b27f4196432.png)
 
 For a perfect usage, I recommend `atom` for developement with a  
 
