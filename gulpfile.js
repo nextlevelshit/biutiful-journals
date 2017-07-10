@@ -4,18 +4,20 @@ const cmd = require('node-cmd');
 const fs = require('fs');
 
 gulp.task('watch', watch);
-gulp.task('pandoc', pandoc);
+gulp.task('pdf', pdf);
+gulp.task('docx', docx);
+gulp.task('odt', odt);
 gulp.task('default', gulp.series('watch'));
 
 function watch(done) {
   gulp.watch([
     '**/*.md'
-  ], gulp.series('pandoc'));
+  ], gulp.series('pdf'));
 
   done();
 }
 
-function pandoc(done) {
+function pdf(done) {
   fs.readdir(__dirname, function(err, files) {
     if (err) return;
 
