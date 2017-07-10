@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "gulp": "github:gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb",
+    "node-cmd": "^3.0.0"
+  },
+  "version": "0.0.1",
+  "author": "Michael Czechowski <mail@dailysh.it>"
+}
